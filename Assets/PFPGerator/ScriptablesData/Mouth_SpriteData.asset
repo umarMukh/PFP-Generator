@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cdd74bbab5ada4eb06bd9aaa26efe9, type: 3}
+  m_Name: Mouth_SpriteData
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 36da37c390d644c4b9d5059e4d952f90, type: 3}
+  - {fileID: 21300000, guid: 97d902e3b09ca40d8a3a45c0e069747b, type: 3}
+  - {fileID: 21300000, guid: 3184108a35aa947478338f58990b5c86, type: 3}
+  - {fileID: 21300000, guid: f14ef5dc01283422d89e74c563d247a7, type: 3}
+  - {fileID: 21300000, guid: 363f8311051f4458089e7c18d00bb8a8, type: 3}
+  - {fileID: 21300000, guid: 8eb50663de75a450aa5903537817d353, type: 3}
+  - {fileID: 21300000, guid: e23487a1f7a8c44408309be308168988, type: 3}
+  - {fileID: 21300000, guid: 9469fa80b6771424a8ece7b3479f166a, type: 3}
+  - {fileID: 21300000, guid: 4b41aaada55c847c99f8316f4f4e4e32, type: 3}
+  - {fileID: 21300000, guid: 4029faa701b6a415a97904acf0820a23, type: 3}
+  - {fileID: 21300000, guid: a330320a18f4e4e00842a7621d5b9df6, type: 3}
+  SmallSprites:
+  - {fileID: 21300000, guid: ed2211529b6b549a9baefc8fdc70e4ea, type: 3}
+  - {fileID: 21300000, guid: bc9ba249100584993b96bcd4c9cd715b, type: 3}
+  - {fileID: 21300000, guid: 2a2835eb324294eecb158d28939365c7, type: 3}
+  - {fileID: 21300000, guid: e2c27086835aa4d9a859af65065ca1b3, type: 3}
+  - {fileID: 21300000, guid: e6775c180ef7d433ab8de1f1ce34d5a4, type: 3}
+  - {fileID: 21300000, guid: 586a6177c438d4cacaa759e302f7f5ab, type: 3}
+  - {fileID: 21300000, guid: 9ef2d547413304e2b98624b84d11bc56, type: 3}
+  - {fileID: 21300000, guid: ee980f10a19284ae0904d7076c710fd2, type: 3}
+  - {fileID: 21300000, guid: aa2e90f0ea9564d53b358e1b973278a3, type: 3}
+  - {fileID: 21300000, guid: 093c8972c86c042a281bef68ffdb2603, type: 3}
+  - {fileID: 21300000, guid: 943584a150d8a4ca6b408d7e52d74ac7, type: 3}
