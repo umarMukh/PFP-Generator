@@ -156,7 +156,8 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Standalone: com.DefaultCompany.PFP-Generator
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -274,7 +275,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: e1b163d2d91b6fa48ae2273583895af1, type: 3}
+      m_Icon: {fileID: 2800000, guid: 913862d5b26c8bc4b8337603ed422a12, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -808,11 +809,11 @@ PlayerSettings:
   webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 2
+  webGLCompressionFormat: 0
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
-  webGLDecompressionFallback: 0
+  webGLDecompressionFallback: 1
   webGLPowerPreference: 2
   scriptingDefineSymbols: {}
   additionalCompilerArguments: {}

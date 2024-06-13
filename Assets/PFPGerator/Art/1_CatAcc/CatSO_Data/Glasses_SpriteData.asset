@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cdd74bbab5ada4eb06bd9aaa26efe9, type: 3}
+  m_Name: Glasses_SpriteData
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 5c1f51aec6ac07944ae2eba7424d753a, type: 3}
+  - {fileID: 21300000, guid: 3c23a3a78bd1d3e46949802ba040a861, type: 3}
+  - {fileID: 21300000, guid: 4137c7c3f84da974696f012afce0af41, type: 3}
+  - {fileID: 21300000, guid: 4af44201282e8314b83c67bb69b55287, type: 3}
+  - {fileID: 21300000, guid: 88d40a4b10a9df44ea7a3a69cf96092b, type: 3}
+  - {fileID: 21300000, guid: 3071e2ed94222ba478c970a9b9101310, type: 3}
+  - {fileID: 21300000, guid: 887173a0e6b160443aa00996b494504d, type: 3}
+  - {fileID: 21300000, guid: d09a709ac857ffa4c93de5cd03cb39e7, type: 3}
+  SmallSprites:
+  - {fileID: 21300000, guid: 0477e6260f12cda47910d83645b59b7a, type: 3}
+  - {fileID: 21300000, guid: 779180f3b87f35245afdc171349fc274, type: 3}
+  - {fileID: 21300000, guid: e292cc47fb115f440a15f4a999be03b2, type: 3}
+  - {fileID: 21300000, guid: 4b740984ef3cbb341954f80d68c8043c, type: 3}
+  - {fileID: 21300000, guid: 2fd1a4eea41f3164abfd5175126a48f5, type: 3}
+  - {fileID: 21300000, guid: 66e254b6ecbe7a24aa167b6a990777a1, type: 3}
+  - {fileID: 21300000, guid: 5fa5dd13d324bf3479198dbe73155a87, type: 3}
+  - {fileID: 21300000, guid: e34757a5adc6a4549a90aecf0bcf47c6, type: 3}

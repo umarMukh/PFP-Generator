@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cdd74bbab5ada4eb06bd9aaa26efe9, type: 3}
+  m_Name: Necklace_SpriteData
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 65e9761b49166bc4c9f800263c457f47, type: 3}
+  - {fileID: 21300000, guid: 44b739d52d143164c8c5fcc47da820fa, type: 3}
+  - {fileID: 21300000, guid: 2689440b238a8f44f8d31bfe379b6f3c, type: 3}
+  - {fileID: 21300000, guid: 81fb7f23afff97e48997f77d80568826, type: 3}
+  - {fileID: 21300000, guid: 1d7c7733e1bbf6e4abc72a420875f8b2, type: 3}
+  - {fileID: 21300000, guid: 84ffedee4ce7f724991bd3a46419b32a, type: 3}
+  - {fileID: 21300000, guid: 0d96a518687168a42bcf2178e459fd1a, type: 3}
+  - {fileID: 21300000, guid: d185dbb1b9f521740b42d6d310fd00c9, type: 3}
+  SmallSprites:
+  - {fileID: 21300000, guid: 42a2e0105a765fb4e99d3463267aef2c, type: 3}
+  - {fileID: 21300000, guid: 26537deb271a8dd4d9556181871e73f5, type: 3}
+  - {fileID: 21300000, guid: b8d8549ffd3a89e43acc95f37efaf2d7, type: 3}
+  - {fileID: 21300000, guid: d1d17214eb545bf4985df00e22d9c3ae, type: 3}
+  - {fileID: 21300000, guid: 4fd9c1c4809f18442a542929c0bfe696, type: 3}
+  - {fileID: 21300000, guid: 6a960ab67dc30684d8b545a60ac88e52, type: 3}
+  - {fileID: 21300000, guid: 5961eb9d6cef7fe4f97848e5eaf47a47, type: 3}
+  - {fileID: 21300000, guid: 7fcad5fab5639dd4d9185852c853b46f, type: 3}
