@@ -44,8 +44,8 @@ PlayerSettings:
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
   defaultScreenHeight: 1080
-  defaultScreenWidthWeb: 960
-  defaultScreenHeightWeb: 600
+  defaultScreenWidthWeb: 1920
+  defaultScreenHeightWeb: 1080
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 0
   unsupportedMSAAFallback: 1
@@ -275,7 +275,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 913862d5b26c8bc4b8337603ed422a12, type: 3}
+      m_Icon: {fileID: 2800000, guid: 043085f43b87b214993efdc7e868077a, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -815,7 +815,8 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 1
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    WebGL: -s;ERROR_ON_UNDEFINED_SYMBOLS=0
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

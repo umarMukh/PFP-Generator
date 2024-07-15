@@ -2482,6 +2482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1372433190}
+  associatedAudioClip: {fileID: 8300000, guid: 146b43447d5a3464ea5e26b6b631838a, type: 3}
 --- !u!1 &1443211059
 GameObject:
   m_ObjectHideFlags: 0
