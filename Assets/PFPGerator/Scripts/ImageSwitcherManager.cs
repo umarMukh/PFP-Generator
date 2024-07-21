@@ -1,11 +1,19 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ImageSwitcherManager : MonoBehaviour
 {
+
+    public static ImageSwitcherManager Instance;
+
+    public Text CityNameTxt;
     public ImageSwitcher[] imageSwitchers;  // Array of ImageSwitchers.
     public WebGLScreenshot webGLScreenshot;
     void Start()
     {
+
+
+        Instance = this;
         //foreach (var switcher in imageSwitchers)
         //{
         //    switcher.Start();

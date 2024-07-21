@@ -3,11 +3,14 @@ using UnityEngine.UI;
 
 public class ImageSwitcher : MonoBehaviour
 {
+
+    public bool IsCityName;
     public SwitcherSet[] switcherSets;  // Array of switcher sets.
     public SpriteData spriteData;       // Reference to the ScriptableObject containing the sprites.
 
     public int currentIndex = 0;        // Index of the current sprite.
-
+   
+    public string CityName;
     public void Start()
     {
         if (spriteData == null || spriteData.sprites.Length == 0)
@@ -43,13 +46,24 @@ public class ImageSwitcher : MonoBehaviour
 
     public void UpdateImage(SwitcherSet set)
     {
+
+        
         // Update both the preview and big images to the current sprite.
+        if (IsCityName)
+        {
+            Debug.Log("City Name Is : "+ spriteData.sprites[currentIndex].name);
+            ImageSwitcherManager.Instance.CityNameTxt.text = spriteData.sprites[currentIndex].name;
+
+        }
+        
         set.previewImage.sprite = spriteData.SmallSprites[currentIndex];
         set.bigImage.sprite = spriteData.sprites[currentIndex];
     }
 
     public void InitializeToStart(SwitcherSet set)
     {
+
+        Debug.Log("City Name Is : " + spriteData.sprites[0].name);
         // Set both the preview and big images to the first sprite.
         set.previewImage.sprite = spriteData.SmallSprites[0];
         set.bigImage.sprite = spriteData.sprites[0];
