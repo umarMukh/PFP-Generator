@@ -13,20 +13,20 @@ MonoBehaviour:
   m_Name: Jacket_SpriteData
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 21300000, guid: f17d67923d8fe744aa7d382159335dc8, type: 3}
-  - {fileID: 21300000, guid: 8bf78a7b955cfa3409a4e9bd0fb03cb9, type: 3}
-  - {fileID: 21300000, guid: 36ffb5ae0c87f3346ba0ef5bed5b561a, type: 3}
-  - {fileID: 21300000, guid: 2adfcd40c54cc514db1ba89fd93e19f7, type: 3}
-  - {fileID: 21300000, guid: 21a6937217279934d8d387b64c101507, type: 3}
-  - {fileID: 21300000, guid: 7544ef52540d1c545bd77f89167694cc, type: 3}
-  - {fileID: 21300000, guid: 5d73eadf1df02484baf8a23c6b440305, type: 3}
-  - {fileID: 21300000, guid: baf799151475fa14aaaadae2025afb9b, type: 3}
+  - {fileID: 21300000, guid: 8d3ac0b3c16b641ae9cd93a7db248679, type: 3}
+  - {fileID: 21300000, guid: 7653a263dfd26464092a67bffd29a69e, type: 3}
+  - {fileID: 21300000, guid: f5395fed2cb21481684895f1ad3a862e, type: 3}
+  - {fileID: 21300000, guid: 633603bbea86c4ef0acb80a945fbcdc8, type: 3}
+  - {fileID: 21300000, guid: 05d900914724a42eeb8ed80646a1d8f8, type: 3}
+  - {fileID: 21300000, guid: da779f569cb944fd896967cc2210f913, type: 3}
+  - {fileID: 21300000, guid: 45d6856db7d234486bd8031d26a7faa3, type: 3}
+  - {fileID: 21300000, guid: 2cffe4123b9ed4167a22c09d6f97bd22, type: 3}
   SmallSprites:
-  - {fileID: 21300000, guid: f17d67923d8fe744aa7d382159335dc8, type: 3}
-  - {fileID: 21300000, guid: 8bf78a7b955cfa3409a4e9bd0fb03cb9, type: 3}
-  - {fileID: 21300000, guid: 36ffb5ae0c87f3346ba0ef5bed5b561a, type: 3}
-  - {fileID: 21300000, guid: 2adfcd40c54cc514db1ba89fd93e19f7, type: 3}
-  - {fileID: 21300000, guid: 21a6937217279934d8d387b64c101507, type: 3}
-  - {fileID: 21300000, guid: 7544ef52540d1c545bd77f89167694cc, type: 3}
-  - {fileID: 21300000, guid: 5d73eadf1df02484baf8a23c6b440305, type: 3}
-  - {fileID: 21300000, guid: baf799151475fa14aaaadae2025afb9b, type: 3}
+  - {fileID: 21300000, guid: 8d3ac0b3c16b641ae9cd93a7db248679, type: 3}
+  - {fileID: 21300000, guid: 7653a263dfd26464092a67bffd29a69e, type: 3}
+  - {fileID: 21300000, guid: f5395fed2cb21481684895f1ad3a862e, type: 3}
+  - {fileID: 21300000, guid: 633603bbea86c4ef0acb80a945fbcdc8, type: 3}
+  - {fileID: 21300000, guid: 05d900914724a42eeb8ed80646a1d8f8, type: 3}
+  - {fileID: 21300000, guid: da779f569cb944fd896967cc2210f913, type: 3}
+  - {fileID: 21300000, guid: 45d6856db7d234486bd8031d26a7faa3, type: 3}
+  - {fileID: 21300000, guid: 2cffe4123b9ed4167a22c09d6f97bd22, type: 3}

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class WebGLScreenshot : MonoBehaviour
 {
+
+    public bool IsPepeGen = false;
     public Canvas canvas;
     public AudioClip associatedAudioClip;
 
@@ -38,17 +40,24 @@ public class WebGLScreenshot : MonoBehaviour
         string screenshotPath = Path.Combine(Application.persistentDataPath, "screenshot.png");
         File.WriteAllBytes(screenshotPath, imageBytes);
 
-        string audioPath = Path.Combine(Application.persistentDataPath, "audio.wav");
-        SaveAudioClipToWAV(associatedAudioClip, audioPath);
+
 
         // Trigger download for the screenshot
         string screenshotUrl = $"data:image/png;base64,{System.Convert.ToBase64String(imageBytes)}";
         Application.ExternalCall("DownloadFile", screenshotUrl, "screenshot.png");
 
+
         // Trigger download for the audio file
-        byte[] audioBytes = File.ReadAllBytes(audioPath);
-        string audioUrl = $"data:audio/wav;base64,{System.Convert.ToBase64String(audioBytes)}";
-        Application.ExternalCall("DownloadFile", audioUrl, "audio.wav");
+        if (IsPepeGen)
+        {
+            string audioPath = Path.Combine(Application.persistentDataPath, "audio.wav");
+            SaveAudioClipToWAV(associatedAudioClip, audioPath);
+            byte[] audioBytes = File.ReadAllBytes(audioPath);
+            string audioUrl = $"data:audio/wav;base64,{System.Convert.ToBase64String(audioBytes)}";
+            Application.ExternalCall("DownloadFile", audioUrl, "audio.wav");
+        }
+
+      
     }
 
     private void SaveAudioClipToWAV(AudioClip clip, string path)
