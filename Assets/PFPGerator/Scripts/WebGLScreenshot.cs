@@ -102,4 +102,9 @@ public class WebGLScreenshot : MonoBehaviour
             fileStream.Write(header, 0, headerSize);
         }
     }
+
+    private void Update()
+    {
+        
+    }
 }

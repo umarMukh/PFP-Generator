@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/PFPGerator/Scenes/Pepe.unity
     guid: 407e198b49d6ce84ba8775e2ab0ab000
   - enabled: 0
     path: Assets/PFPGerator/Scenes/Pfp GeneratorWonka 1.unity
     guid: a3851cbe50828664f98a38f5449f1498
+  - enabled: 1
+    path: Assets/PFPGerator/Scenes/Pfp GeneratorCat 1.unity
+    guid: 6fc50b5cae90f4f449468ccab6cc5e18
   m_configObjects: {}
