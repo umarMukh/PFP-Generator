@@ -44,7 +44,9 @@ public class WebGLScreenshot : MonoBehaviour
 
         // Trigger download for the screenshot
         string screenshotUrl = $"data:image/png;base64,{System.Convert.ToBase64String(imageBytes)}";
-        Application.ExternalCall("DownloadFile", screenshotUrl, "screenshot.png");
+        // Application.ExternalCall("DownloadFile", screenshotUrl, "screenshot.png");
+        Application.ExternalEval($"DownloadFile('{screenshotUrl}', 'screenshot.png');");
+
 
 
         // Trigger download for the audio file
